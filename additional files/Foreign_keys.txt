@@ -1,0 +1,37 @@
+ALTER TABLE Repository
+ADD CONSTRAINT Drive_Manufacturer_FK
+Foreign Key (Drive_ID) REFERENCES
+Drive_Manufacturer (Drive_ID)
+
+ALTER TABLE Repository
+ADD CONSTRAINT Drive_Model_FK
+Foreign Key (Drive_Model_ID) REFERENCES
+Drive_Model (Drive_Model_ID)
+
+ALTER TABLE Repository
+ADD CONSTRAINT Firmware_Update_FK
+Foreign Key (Firmware_Update_ID) REFERENCES
+Firmware_Update (Firmware_Update_ID)
+
+ALTER TABLE Repository
+ADD CONSTRAINT Firmware_Version_FK
+Foreign Key (Firmware_Version_ID) REFERENCES
+Firmware_version (Firmware_Version_ID)
+
+ALTER TABLE Repository
+ADD CONSTRAINT Op_System_FK
+Foreign Key (System_ID) REFERENCES
+Operating_System (System_ID)
+
+ALTER TABLE Repository
+ADD CONSTRAINT Sys_Manufacturer_FK
+Foreign Key (Manufacturer_ID) REFERENCES
+System_Manufacturer (Manufacturer_ID)
+
+
+ALTER TABLE Repository DROP FOREIGN KEY Drive_ID
+ALTER TABLE Repository DROP FOREIGN KEY Drive_Model_ID
+ALTER TABLE Repository DROP FOREIGN KEY Firmware_Update_ID
+ALTER TABLE Repository DROP FOREIGN KEY Firmware_Version_ID
+ALTER TABLE Repository DROP FOREIGN KEY System_ID
+ALTER TABLE Repository DROP FOREIGN KEY Manufacturer_ID

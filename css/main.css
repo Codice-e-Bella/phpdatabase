@@ -1,0 +1,179 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 20px;
+	color: #505050;
+	margin-top: 0;
+	padding-right: 30px;
+	padding-left: 60px;
+	text-transform: uppercase;
+}
+h2, h3, h4, h5, h6 {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+h2 {
+	color: #505050;
+}
+p {
+	padding-left: 60px;
+}
+a img { 
+	border: none;
+}
+a:link {
+	color: #920000;
+	text-decoration: none;
+}
+a:visited {
+	color: #505050;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+.header {
+	height: 175px;
+	padding: 60px 0 0 10px;
+}
+.content {
+	padding: 30px 0;
+	background-image: url(../templates/images/divider.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#downloadarea {
+	height: 400px;
+	padding-bottom: 30px;
+	background-image: url(../templates/images/content_bkgrd.jpg);
+	background-repeat: no-repeat;
+}
+.linuxsvr {
+	width: 200px;
+	height: 200px;
+	padding: 30px 5px 50px 100px;
+	float: left;
+}
+.linuxsvr p {
+	padding-left: 35px;
+}
+.wnd1 {
+	height: 200px;
+	padding: 30px 5px 50px 70px;
+	float: left;
+}
+.wnd1 p {
+	padding-left: 49px;
+}
+.wnd2 {
+ 	float: left;
+	height: 200px;
+	padding: 30px 57px 50px 60px;
+}
+.wnd2 p {
+	padding-left: 49px;
+}
+.button {
+	width: 175px;
+	height: 50px;
+	padding: 15px 0 0 25px;
+	background-image: url(../templates/images/button.jpg);
+	background-repeat: no-repeat;
+}
+.button a:link {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.button a:visited {
+	color: #bebebe;
+}
+.button a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+.linuxsvr .button {
+	margin: 30px 0 0 10px;
+}
+.wnd1 .button { 
+	margin: 30px 0 0 25px;
+}
+.wnd2 .button {
+	margin: 30px 0 0 25px;
+}
+.subcontent {
+	margin-top: 10px;
+	float: left;
+}
+.dbtable {
+	clear:both;
+	width: 980px;
+	background: url(../templates/images/divider.jpg) no-repeat center top;
+	padding: 30px 0;
+}
+table td {
+	border:1px solid #d1d1d1;
+}
+.footer {
+	clear: both;
+	padding: 30px 0;
+	background: #505050;
+	color: #f2f2f2;
+	font-size:11px;
+	text-align: center;
+}
+.footer a:link {
+	color: #bebebe;
+	text-decoration: none;
+}
+.footer a:visited {
+	color: #bebebe;
+	text-decoration: underline;
+}
+.footer a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.table {
+	width: 980px;
+	height: 400px;
+	text-align: center;
+	padding: 60px 0 0 0;
+}
+.login {
+	text-align: right;
+}
+.searchform {
+	width: 950px;
+	background: #bebebe;
+	padding: 10px 0 10px 30px;
+}
